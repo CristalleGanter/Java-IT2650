@@ -1,0 +1,23 @@
+//'main' method must be in a class 'Rextester'.
+//Compiler version 1.8.0_111
+
+import java.util.*;
+import java.lang.*;
+
+class Rextester
+{  
+    public static void main(String args[])
+    {
+        int coupons = 49;
+        int candybar = 10;
+        int gumball = 3;
+        
+        
+        
+        
+        System.out.println("You can afford "+coupons/candybar+" candy bars.");
+        System.out.println("You can afford "+((coupons-(coupons/candybar)*10))/gumball+" gumballs.");
+        
+        
+    }
+}
